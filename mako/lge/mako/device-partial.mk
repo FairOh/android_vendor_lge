@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/lge/mako/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg:lge \
     vendor/lge/mako/lge/mako/proprietary/libAKM.so:system/lib/libAKM.so:lge \
     vendor/lge/mako/lge/mako/proprietary/libDxHdcp.so:system/lib/libDxHdcp.so:lge \
+    vendor/lge/mako/lge/mako/proprietary/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/mako/lge/mako/proprietary/libacdbdata.so:system/lib/libacdbdata.so:lge \
     vendor/lge/mako/lge/mako/proprietary/libcamera_fast_af.so:system/lib/libcamera_fast_af.so:lge \
     vendor/lge/mako/lge/mako/proprietary/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so:lge \
@@ -30,4 +31,8 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/lge/mako/proprietary/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02:lge \
     vendor/lge/mako/lge/mako/proprietary/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03:lge \
     vendor/lge/mako/lge/mako/proprietary/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt:lge \
-
+    vendor/lge/mako/lge/mako/proprietary/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lge/mako/lge/mako/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/lge/mako/lge/mako/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/mako/lge/mako/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/lge/mako/lge/mako/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
